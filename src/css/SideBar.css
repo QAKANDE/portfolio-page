@@ -1,0 +1,39 @@
+/* #sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  min-height: 100vh !important;
+  z-index: 100;
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+} */
+#profile-picture {
+  width: 200px;
+  border-radius: 50%;
+}
+
+#img-wrapper {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#break {
+  fill: #a4acc4;
+}
+
+#links {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#links a {
+  text-align: center;
+  color: #a4acc4;
+  line-height: 28.8px;
+  font-size: 15.04;
+  letter-spacing: 6px;
+  margin-top: 20px;
+}
