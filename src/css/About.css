@@ -12,7 +12,7 @@
   margin-top: 10rem;
 }
 
-#services-card {
+.services-card {
   background-color: #191d2b !important;
   color: #a4acc4;
   letter-spacing: normal;

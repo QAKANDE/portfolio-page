@@ -13,7 +13,7 @@ function App() {
   return (
   <div>
       <Router>
-        <Row>
+        {/* <Row>
           <Col xl={4} id="sidebar-wrapper">
               <SideBar/>
           </Col>
@@ -36,8 +36,8 @@ function App() {
             </Route>
           </Switch>
           </Col>
-        </Row>
-        {/* <div id="sidebar">
+        </Row> */}
+        <div id="sidebar">
         <SideBar/>
   </div>
         <div id="main-content">
@@ -59,7 +59,7 @@ function App() {
             </Route>
           </Switch>
      
-  </div>  */}
+  </div> 
       </Router>
   </div>
     

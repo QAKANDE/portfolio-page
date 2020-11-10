@@ -1,0 +1,14 @@
+#resume-wrapper {
+  background-color: #10121b;
+  color: #a4acc4;
+  margin-left: 10rem;
+  margin-top: 6rem;
+}
+
+.skills-list {
+  list-style: none;
+}
+
+#skills-div {
+  margin-top: 3rem;
+}

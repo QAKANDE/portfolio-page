@@ -10,10 +10,12 @@
   letter-spacing: normal;
   height: 100%;
 }
-/* #main-content {
+#main-content {
   background-color: #10121b;
-  color: wheat;
+  color: #a4acc4;
+  font-size: 20px;
+  line-height: 32px;
   margin-left: 200px;
   padding: 1px 16px;
   height: 100%;
-} */
+}
