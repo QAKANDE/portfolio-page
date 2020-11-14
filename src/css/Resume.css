@@ -1,7 +1,7 @@
 #resume-wrapper {
   background-color: #10121b;
   color: #a4acc4;
-  margin-left: 10rem;
+
   margin-top: 6rem;
 }
 
@@ -10,5 +10,32 @@
 }
 
 #skills-div {
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
+
+/* #experience-list {
+  counter-reset: list-counter;
+  list-style: none;
+  float: left;
+}
+
+#experience-list li {
+  margin: 1.5em 0;
+}
+#experience-list li:before {
+  content: counter(list-counter);
+  counter-increment: list-counter;
+  transform: rotate(45deg);
+  text-transform: rotate(90deg);
+  width: 1em;
+  height: 1em;
+  padding: 0.5em;
+  margin-right: 1em;
+  border: 0.25em solid #ccc;
+  background: #000;
+  color: #fff;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+} */

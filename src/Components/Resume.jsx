@@ -6,7 +6,7 @@ class Resume extends Component {
     render() { 
         return ( 
              <>
-                <div id="resume-wrapper">
+                <div id="resume-wrapper" className="container">
                     <h3>MY SKILLS</h3>
                     <div id="skills-div">
                         <Row>
@@ -42,6 +42,28 @@ class Resume extends Component {
                             </Col>
                         </Row>
                       
+                    </div>
+                    <div className="mt-4">
+                        <h3>RESUME</h3>
+                        <h4>Working Experience</h4>
+                        <div id="resume-summary">
+                            <ul>
+                                <li>
+                                    <Row>
+                                        <Col xl={3}>
+                                        <h5>2019 - 2020</h5>
+                                        </Col>
+                                        <Col xl={9}>
+                                            <div className="flex-row">
+                                                <h3>IT Technical Support Officer</h3>
+                                                <h5>Wrights Consultings Ltd</h5>
+                                                <p>Displayed proficiency in the use of application software by using and configuring SAP in the management of the company’s finance, logistics and human resources. This led to a 15% increase in company functionality.</p>
+                                            </div>
+                                        </Col>
+                                   </Row>
+                                </li>
+                           </ul>
+                        </div>
                     </div>
                 </div>
                 </>
