@@ -13,18 +13,20 @@ class Portfolio extends Component {
     state = {  }
     render() { 
         return ( <>
-            <div id="portfolio-wrapper" className="container mt-5">
+            <div id="portfolio-wrapper" className="container mt-5 mb-5">
                 <h4 className="mb-4">PORTFOLIOS</h4>
-                <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-1 row-cols-xl-3 mb-4 text-center">
+            <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-1 row-cols-xl-3 mb-4 text-center">
+              <a className="portfolio-anchor" href="https://q-investment-home-front-end.herokuapp.com/" target="as_blank">
   <Card className="portfolio-card" as={Col}>
     <Card.Img variant="top" src={ArchiKraft} />
     <Card.Body>
       <Card.Title>CrowdFunding Platform</Card.Title>
       
     </Card.Body>
-    
                     </Card>
-                    <a href="https://github.com/QAKANDE/StriveModule4/tree/master/qflix" target="as_blank">                   
+              </a>
+    
+                    <a className="portfolio-anchor" href="https://github.com/QAKANDE/StriveModule4/tree/master/qflix" target="as_blank">                   
   <Card className="portfolio-card" as={Col}>
     <Card.Img variant="top" src={netflix} />
     <Card.Body>
@@ -34,7 +36,7 @@ class Portfolio extends Component {
     
   </Card>
                     </a>
-                    <a href="https://github.com/QAKANDE/Linkedin-benchmark" target="as_blank">                     
+                    <a className="portfolio-anchor" href="https://github.com/QAKANDE/Linkedin-benchmark" target="as_blank">                     
   <Card className="portfolio-card" as={Col}>
     <Card.Img variant="top" src={linkedIn} />
     <Card.Body>
@@ -44,34 +46,34 @@ class Portfolio extends Component {
     
                     </Card>
                 </a>
-                       <a href="https://drive.google.com/file/d/1LzKH6sfq-WrmY4-OrU-ffZe_yepaBrHq/view?usp=sharing" target="as_blank">
+                       <a className="portfolio-anchor" href="https://drive.google.com/file/d/1LzKH6sfq-WrmY4-OrU-ffZe_yepaBrHq/view?usp=sharing" target="as_blank">
                         
                     <Card className="portfolio-card" as={Col}>
     <Card.Img variant="top" src={neural} />
     <Card.Body>
-      <Card.Title>Image Classification Of CIFAR-10 Using Keras And Tensorflow</Card.Title>
+      <Card.Title>Image Classification</Card.Title>
       
     </Card.Body>
     
                     </Card>
                 </a>
-                       <a href="https://drive.google.com/file/d/1F747vDu2JdVdOGtqaK3mD8CvgUOVIlUI/view?usp=sharing" target="as_blank">
+                       <a className="portfolio-anchor" href="https://drive.google.com/file/d/1F747vDu2JdVdOGtqaK3mD8CvgUOVIlUI/view?usp=sharing" target="as_blank">
                         
                     <Card className="portfolio-card" as={Col}>
     <Card.Img variant="top" src={fraudDetection} />
     <Card.Body>
-      <Card.Title>Detecting Fraud in Financial Payment Services Uisng Machine Learning</Card.Title>
+      <Card.Title>Detecting Fraud</Card.Title>
       
     </Card.Body>
     
                     </Card>
                 </a>
-                       <a target="as_blank">
+                       <a className="portfolio-anchor" target="as_blank">
                         
                               <Card className="portfolio-card" as={Col}>
     <Card.Img variant="top" src={cloudComputing} />
     <Card.Body>
-      <Card.Title>Implementation Of A Cloud Architecture For HE Institutes Using AWS</Card.Title>
+      <Card.Title>Cloud Architecture</Card.Title>
      
     </Card.Body>
     

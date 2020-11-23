@@ -1,3 +1,18 @@
+.portfolio-anchor {
+  color: #a4acc4;
+}
+
+.portfolio-anchor:hover {
+  text-decoration: none;
+  font-size: 5rem;
+  font-weight: 5rem;
+  color: #a4acc4;
+}
+#portfolio-wrapper {
+  padding-left: 10rem;
+  padding-right: 5rem;
+}
+
 .card-img-top {
   width: 100%;
   height: 15vw;
@@ -7,6 +22,7 @@
 .portfolio-card {
   background-color: #10121b !important;
   border-style: none;
+  border: none;
 }
 
 #portfolio-card-deck {

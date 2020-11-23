@@ -48,7 +48,7 @@ emailjs.send("service_ia5l4o9", "template_ymws2pm", templateParams, "user_wvm45a
     render() { 
         return ( 
              <>
-            <div className="container">
+            <div className="container mt-5 mb-5" id="contact-wrapper">
               <Row>
                 <Col>
                   <Form  >

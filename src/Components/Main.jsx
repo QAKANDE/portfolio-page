@@ -8,11 +8,11 @@ class Main extends Component {
             <>
                 <div id="main">
                     <div id="center">
-                        <h1>Hello , Hola  </h1>
+                        <h1>Hello , hola , Bonjour , Ciao , नमस्ते !  </h1>
                         <h2 className="mt-4">I'm Quadri Akande</h2>
-                        <h3 className="mt-4">I am a full stack developer. I can provide clean code and pixel perfect design.</h3>
-                        <h3 className="mt-4">I also make website more & more interactive with web animations.</h3>
-                        <div className="mt-4">
+                        <h3 className="mt-4">I am a full stack developer.</h3>
+                        <h3 className="mt-4">I use MongoDb , Express , React , Node <br></br> To Create Beautiful and Efficient Web Applications</h3>
+                        <div id="icons">
                             <a href=""target="_blank">
 
                             <i class="fa fa-instagram mx-3 fa-3x"></i>

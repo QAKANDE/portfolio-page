@@ -15,7 +15,7 @@ class SideBar extends Component {
                 <hr id="break"></hr>
                     <div id="links" className=" d-flex flex-column">
                         <Link to="/">
-                    <a>Home</a>
+                    <a >Home</a>
                         </Link>
                            <Link to="/about">
                     <a>About</a>
