@@ -68,7 +68,7 @@ emailjs.send("service_ia5l4o9", "template_ymws2pm", templateParams, "user_wvm45a
             <Form.Group as={Col}>
               <Form.Label htmlFor="email">Email</Form.Label>
               <Form.Control
-                placeholder="Enter Your Email Address"
+                placeholder="Enter Your Email Address "
                 type="email"
                 id="email"
                 onChange={(e) => this.updateDetails(e)}
