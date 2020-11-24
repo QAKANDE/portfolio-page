@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Card , Row , Col} from "react-bootstrap"
-import ArchiKraft from "../Assets/archi-kraft-consults-second-logo.png"
+import ArchiKraft from "../Assets/Archi-kraft-consults-second-logo.png"
 import netflix from "../Assets/netflixLogo.jpg"
 import linkedIn from "../Assets/LinkedinLogo.jpg"
 import neural from "../Assets/neuralNetwork.jpg"
